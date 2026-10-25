@@ -1,8 +1,7 @@
 ﻿YOLO26的叶片病害识别系统
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/21085750dbf44054bf4a572914aa1ec9.png)
 
-✔包含数据集，训练好的模型，系统配置和说明文档![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b1289d228ba34e9cb292667376e364f1.png)
-
+✔包含数据集，训练好的模型，系统配置和说明文档
 
 ✔支持图像和视频检测，可识别早疫病、晚疫病、叶霉病等9种常见病害，数据集格式为yolo格式
 
@@ -23,7 +22,6 @@
 7: Spider_M（蜘蛛螨）
 8: YLCV（黄曲叶病毒）
 ```
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/aa99c76d9e894feba3258636ea1d5b87.png)
 
 #### 2. 格式与结构
 采用 **YOLO TXT格式**，数据集结构如下：
@@ -46,7 +44,6 @@ dataset/
 ```bash
 pip install ultralytics  # 需支持YOLO26的版本
 ```
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/370cda6fe98f4a7f834ee75cc100524f.png)
 
 #### 2. 训练配置文件（`data.yaml`）
 ```yaml
